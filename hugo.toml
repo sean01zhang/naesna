@@ -1,0 +1,9 @@
+baseURL = 'https://naesna.es/'
+languageCode = 'en-us'
+title = 'Sean'
+theme = 'idgaf'
+
+
+[markup]
+  [markup.highlight]
+    style = 'xcode'

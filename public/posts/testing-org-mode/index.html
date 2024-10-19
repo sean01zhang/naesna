@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Org Style Demo | Sean</title>
+
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <h1>Sean</h1>
+
+<nav>
+  Navigation:
+  <ul>
+<li>
+  <a href="/">Home</a>
+</li>
+<li>
+  <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+</li>
+<li>
+  <a href="/tags/">Tags</a>
+</li>
+  </ul>
+</nav>
+
+
+  </header>
+  <main>
+    
+  <h1>Org Style Demo</h1>
+
+  
+  
+  <time datetime="0001-01-01T00:00:00&#43;00:00">January 1, 1</time>
+
+  
+<div class="abstract-block">
+<p>A custom org css stylesheet to bring it to visual parity with the rest of my
+website. The org template is borrowed from <a href="https://gongzhitaao.org/orgcss/">https://gongzhitaao.org/orgcss/</a>.</p>
+</div>
+<nav>
+<ul>
+<li><a href="#headline-1">Usage &amp; Copyright</a>
+</li>
+<li><a href="#headline-2">Todos are Nice</a>
+<ul>
+<li><a href="#headline-3">Nesting</a>
+</li>
+<li><a href="#headline-4">No TODO here</a>
+</li>
+</ul>
+</li>
+<li><a href="#headline-7">Code not working</a>
+</li>
+<li><a href="#headline-8">References</a>
+</li>
+<li><a href="#headline-9">Footnotes</a>
+</li>
+</ul>
+</nav>
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Usage &amp; Copyright
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>If you want to use this stylesheet, feel free to add this line to your .org file:</p>
+<div class="src src-org">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span><span style="color:#177500">#+HTML_HEAD</span><span style="color:#177500">: &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://seanzhang.ca/org.css&#34;/&gt;</span></span></span></code></pre></div>
+</div>
+<p>
+If you discover any bugs, feel free to let me know either directly or through <a href="https://github.com/sean01zhang/sean01zhang.github.io/issues">Github</a>.</p>
+</div>
+</div>
+<div id="outline-container-headline-2" class="outline-2">
+<h2 id="headline-2">
+<span class="todo status-todo">TODO</span>
+Todos are Nice
+</h2>
+<div id="outline-text-headline-2" class="outline-text-2">
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+<span class="todo status-done">DONE</span>
+Nesting
+</h3>
+<div id="outline-text-headline-3" class="outline-text-3">
+<p>Under this section is some plain text. A few things:</p>
+<ol>
+<li>Numbered List.</li>
+<li>
+<p>How about nesting some unordered lists?</p>
+<ul>
+<li>Like this</li>
+<li>and this</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+No TODO here&#xa0;&#xa0;&#xa0;<span class="tags"><span class="tag-tag2">tag2</span></span>
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<blockquote>
+<p>Something can be quoted here. Another use for this might be in-line notes.</p>
+</blockquote>
+<p>
+There are <code>some monospaced</code> text blocks here. Code block examples:</p>
+<div class="src src-c++">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#633820">#include</span> <span style="color:#633820">&lt;iostream&gt;</span><span style="color:#633820">
+</span></span></span><span style="display:flex;"><span><span style="color:#633820"></span>
+</span></span><span style="display:flex;"><span><span style="color:#a90d91">int</span> <span style="color:#000">main</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#000">std</span><span style="color:#000">::</span><span style="color:#000">cout</span> <span style="color:#000">&lt;&lt;</span> <span style="color:#c41a16">&#34;hello world&#34;</span> <span style="color:#000">&lt;&lt;</span> <span style="color:#000">std</span><span style="color:#000">::</span><span style="color:#000">endl</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#a90d91">return</span> <span style="color:#1c01ce">0</span>;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+</div>
+<p>
+Rust:</p>
+<div class="src src-rust">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rust" data-lang="rust"><span style="display:flex;"><span><span style="color:#a90d91">fn</span> <span style="color:#000">main</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">println!</span>(<span style="color:#c41a16">&#34;Hello world&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a90d91">for</span> <span style="color:#000">i</span> <span style="color:#a90d91">in</span> <span style="color:#1c01ce">1</span><span style="color:#000">..</span><span style="color:#1c01ce">2</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#a90d91">continue</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+</div>
+<p>
+JSON</p>
+<div class="src src-json">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;name&#34;</span>: <span style="color:#c41a16">&#34;Example&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;a_list&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#1c01ce">1</span>, <span style="color:#1c01ce">2</span>, <span style="color:#1c01ce">3</span>,
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;message&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">&#34;w&#34;</span>: <span style="color:#c41a16">&#34;orld&#34;</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+</div>
+<p>
+Here&#39;s a table I borrowed:</p>
+<table>
+<thead>
+<tr>
+<th>Utility</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a></td>
+<td>Export citations in bib files, if any, to html.</td>
+</tr>
+<tr>
+<td><a href="https://www.mathjax.org/">MathJax</a></td>
+<td>Render math equations.</td>
+</tr>
+</tbody>
+</table>
+<div id="outline-container-headline-5" class="outline-4">
+<h4 id="headline-5">
+Some Math
+</h4>
+<div id="outline-text-headline-5" class="outline-text-4">
+<div id="outline-container-headline-6" class="outline-5">
+<h5 id="headline-6">
+The Rendering Eqauation
+</h5>
+<div id="outline-text-headline-6" class="outline-text-5">
+\begin{align*}
+L_o(x_i) = L_i(x_i) + L_e()
+\end{align*}
+<p>
+This is an inline thing $4^e$</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-2">
+<h2 id="headline-7">
+Code not working
+</h2>
+<div id="outline-text-headline-7" class="outline-text-2">
+<div class="src src-json">
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;name&#34;</span>: <span style="color:#c41a16">&#34;Example&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;a_list&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#1c01ce">1</span>, <span style="color:#1c01ce">2</span>, <span style="color:#1c01ce">3</span>,
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;message&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">&#34;w&#34;</span>: <span style="color:#c41a16">&#34;orld&#34;</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-8" class="outline-2">
+<h2 id="headline-8">
+References&#xa0;&#xa0;&#xa0;<span class="tags"><span class="tag-ignore">ignore</span></span>
+</h2>
+</div>
+<div id="outline-container-headline-9" class="outline-2">
+<h2 id="headline-9">
+Footnotes
+</h2>
+</div>
+
+  
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+
+</html>

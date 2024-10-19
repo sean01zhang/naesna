@@ -1,0 +1,43 @@
+#+title: Firefox Vertical Tabs
+#+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
+
+Here is a quick guide to setting up vertical tabs and removing the horizontal tab bar
+in Firefox..
+
+* Vertical Tabs
+** Install Tree Style Tab
+Self Explanatory. I also like having a supplementary plugin for indent lines.
+
+/Firefox Extension Links/
+- [[https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/][Tree Style Tab]]
+- [[https://addons.mozilla.org/firefox/addon/tst-indent-line/][TST Indent Lines]]
+
+** Remove Horizontal Tab Bar
+This requires some more work. First, you'll need to add some CSS to
+your ~userChrome.css~ file, and then you'll have to enable stylesheet
+customization within Firefox.
+
+*** User Chrome
+1. Go to your profile folder. You can open this by going to ~about:support~ and find the path underneath /Profile Folder/. It should have the form ~/Users/.../Firefox/Profiles/****.default-release~.
+2. Within this folder, find ~./chrome/userChrome.css~. You may have to create this file and folder if it does not exist.
+3. Add the following line(s) to the file. This will always hide the tab bar.
+    #+begin_src css
+    #TabsToolbar { visibility: collapse !important; }
+    #+end_src
+
+*** Enable Stylesheet Customization
+1. Go to ~about:config~ and proceed with caution.
+2. Toggle ~toolkit.legacyUserProfileCustomizations.stylesheets~ to **True**.
+
+*** [Optional] Add title bar
+If you want your traffic lights, you can enable the title bar by right-clicking
+the toolbar and selecting *Customize Toolbar*. The option should
+be at the bottom-right of the screen.
+
+*** Restart Firefox
+Once finished, restart Firefox.
+
+* Conclusion
+I find that removing the horizontal tab bar significantly improves this experience,
+as it returns some vertical space and kills my habit of using the horiontal
+tab bar instead of the vertical tab bar.

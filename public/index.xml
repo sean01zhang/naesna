@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sean</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sean</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/posts/post1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/post1/</guid>
+      <description>&lt;p&gt;This is a cool markdown file eh? hh&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firefox Vertical Tabs</title>
+      <link>http://localhost:1313/posts/firefox-vertical-tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/firefox-vertical-tabs/</guid>
+      <description>&lt;p&gt;&#xA;Here is a quick guide to setting up vertical tabs and removing the horizontal tab bar&#xA;in Firefox..&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Vertical Tabs&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;Install Tree Style Tab&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Self Explanatory. I also like having a supplementary plugin for indent lines.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;em&gt;Firefox Extension Links&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/&#34;&gt;Tree Style Tab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/tst-indent-line/&#34;&gt;TST Indent Lines&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-3&#34;&gt;&#xA;Remove Horizontal Tab Bar&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;This requires some more work. First, you&amp;#39;ll need to add some CSS to&#xA;your &lt;code&gt;userChrome.css&lt;/code&gt; file, and then you&amp;#39;ll have to enable stylesheet&#xA;customization within Firefox.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
