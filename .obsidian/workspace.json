@@ -245,6 +245,7 @@
   },
   "active": "6a1d77928caee8fe",
   "lastOpenFiles": [
+    "CNAME",
     "layouts/partials/footer.html~",
     "public/tags/index.xml",
     "public/categories/index.xml",
@@ -255,7 +256,6 @@
     "public/css/main.css",
     "public/css/normalize.css",
     "public/favicon.ico",
-    "public/tags/index.html",
     "content/posts/eighteightxthreeone.md",
     "public/website_button.gif",
     "static/website_button.gif",
