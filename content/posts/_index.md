@@ -5,3 +5,4 @@ draft = false
 layout = "list"
 +++
 
+I intend this to index some of my knowledge-keeping and sharing.

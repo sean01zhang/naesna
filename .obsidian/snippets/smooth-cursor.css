@@ -1,0 +1,7 @@
+.cm-cursor-primary {
+	transition: all 80ms;
+}
+
+html {
+	scroll-behavior: smooth;
+}

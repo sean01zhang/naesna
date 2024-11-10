@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sean</title>
+    <title>naesnaes</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Sean</description>
+    <description>Recent content on naesnaes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 15:11:57 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post 1</title>
-      <link>http://localhost:1313/posts/post1/</link>
-      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/post1/</guid>
-      <description>&lt;p&gt;This is a cool markdown file eh? hh&lt;/p&gt;</description>
+      <title>Legacy Pages</title>
+      <link>http://localhost:1313/posts/archived/</link>
+      <pubDate>Sun, 10 Nov 2024 15:11:57 -0500</pubDate>
+      <guid>http://localhost:1313/posts/archived/</guid>
+      <description>&lt;p&gt;Here is a collection of links to pages that are no longer compatible with my current website.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/archive/in-one-weekend&#34;&gt;Ray Tracing in One Weekend&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/archive/testing-org-mode&#34;&gt;Org CSS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Previous Iterations</title>
+      <link>http://localhost:1313/posts/previterations/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/previterations/</guid>
+      <description>&lt;p&gt;Since I keep changing the systems and design of my website, I decided to keep track of it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;v0---december-2022&#34;&gt;V0 - December 2022&lt;/h2&gt;&#xA;&lt;p&gt;This was when I first acquired the domain name, &lt;a href=&#34;https://naesna.es&#34;&gt;naesna.es&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It started with plain HTML with no CSS at all.&lt;/p&gt;&#xA;&lt;p&gt;When I started using org-mode and Emacs, I began exporting them to HTML pages within org-mode for more self-documenting types of writing.&lt;/p&gt;&#xA;&lt;h3 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;v0_naesnaes_homepage.png&#34; alt=&#34;The Last Version of my Homepage&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;&#xA;&lt;p&gt;Most of my personal code I work on is checked into GitHub. My username is &lt;a href=&#34;https://github.com/sean01zhang&#34;&gt;sean01zhang&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spring 2024 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-s24/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-s24/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;JAPAN202&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Winter 2024 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-w24/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-w24/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;del&gt;CS444&lt;/del&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;li&gt;CS452&lt;/li&gt;&#xA;&lt;li&gt;CS456&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;Dropped&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Spring 2023 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-s23/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-s23/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;CO250&lt;/li&gt;&#xA;&lt;li&gt;CS458&lt;/li&gt;&#xA;&lt;li&gt;CS488&lt;/li&gt;&#xA;&lt;li&gt;STAT231&lt;/li&gt;&#xA;&lt;li&gt;JAPAN201&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Winter 2023 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-w23/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-w23/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;CS370&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I took this course to fulfill the requirements of CS488&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Fall 2022 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-f22/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-f22/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;CS350&lt;/li&gt;&#xA;&lt;li&gt;CS341&lt;/li&gt;&#xA;&lt;li&gt;CS349&lt;/li&gt;&#xA;&lt;li&gt;JAPAN102&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Fall 2021 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-f21/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-f21/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;JAPAN101&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Winter 2021 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-w21/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-w21/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;CS240&lt;/li&gt;&#xA;&lt;li&gt;CS241&lt;/li&gt;&#xA;&lt;li&gt;CS251&lt;/li&gt;&#xA;&lt;li&gt;MATH239&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Fall 2020 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-f20/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-f20/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;CS245&lt;/li&gt;&#xA;&lt;li&gt;CS246&lt;/li&gt;&#xA;&lt;li&gt;ECON101&lt;/li&gt;&#xA;&lt;li&gt;STAT230&lt;/li&gt;&#xA;&lt;li&gt;&lt;del&gt;MATH239&lt;/del&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;Dropped&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Winter 2020 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-w20/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-w20/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;MATH136&lt;/li&gt;&#xA;&lt;li&gt;MATH138&lt;/li&gt;&#xA;&lt;li&gt;CS136&lt;/li&gt;&#xA;&lt;li&gt;SPCOM101&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;&#xA;&lt;li&gt;PHYS122&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;I believe this course code has changed since I took it - I believe it is now COMMST&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Fall 2019 Courses</title>
+      <link>http://localhost:1313/uwaterloo/courses-f19/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/uwaterloo/courses-f19/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;MATH145&lt;/li&gt;&#xA;&lt;li&gt;MATH147&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I later dropped this course to take MATH137&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;CS135&lt;/li&gt;&#xA;&lt;li&gt;ENGL109&lt;/li&gt;&#xA;&lt;li&gt;PHYS121&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Firefox Vertical Tabs</title>
@@ -21,6 +105,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/firefox-vertical-tabs/</guid>
       <description>&lt;p&gt;&#xA;Here is a quick guide to setting up vertical tabs and removing the horizontal tab bar&#xA;in Firefox..&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Vertical Tabs&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;Install Tree Style Tab&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Self Explanatory. I also like having a supplementary plugin for indent lines.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;em&gt;Firefox Extension Links&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/&#34;&gt;Tree Style Tab&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://addons.mozilla.org/firefox/addon/tst-indent-line/&#34;&gt;TST Indent Lines&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-3&#34;&gt;&#xA;Remove Horizontal Tab Bar&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;This requires some more work. First, you&amp;#39;ll need to add some CSS to&#xA;your &lt;code&gt;userChrome.css&lt;/code&gt; file, and then you&amp;#39;ll have to enable stylesheet&#xA;customization within Firefox.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Org Style Demo</title>
+      <link>http://localhost:1313/archive/testing-org-mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/testing-org-mode/</guid>
+      <description>&lt;div class=&#34;abstract-block&#34;&gt;&#xA;&lt;p&gt;A custom org css stylesheet to bring it to visual parity with the rest of my&#xA;website. The org template is borrowed from &lt;a href=&#34;https://gongzhitaao.org/orgcss/&#34;&gt;https://gongzhitaao.org/orgcss/&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;nav&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-1&#34;&gt;Usage &amp;amp; Copyright&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-2&#34;&gt;Todos are Nice&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-3&#34;&gt;Nesting&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-4&#34;&gt;No TODO here&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-7&#34;&gt;Code not working&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-8&#34;&gt;References&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#headline-9&#34;&gt;Footnotes&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Usage &amp;amp; Copyright&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;If you want to use this stylesheet, feel free to add this line to your .org file:&lt;/p&gt;&#xA;&lt;div class=&#34;src src-org&#34;&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-org&#34; data-lang=&#34;org&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#177500&#34;&gt;#+HTML_HEAD&lt;/span&gt;&lt;span style=&#34;color:#177500&#34;&gt;: &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;https://seanzhang.ca/org.css&amp;#34;/&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&#xA;If you discover any bugs, feel free to let me know either directly or through &lt;a href=&#34;https://github.com/sean01zhang/sean01zhang.github.io/issues&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

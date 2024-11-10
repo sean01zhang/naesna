@@ -4,7 +4,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Post 1 | Sean</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+<title>Post 1 | naesnaes</title>
 
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/main.css">
@@ -13,17 +17,31 @@
       <script src="/js/main.js"></script>
 
 
+  
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+
+  
 </head>
 
 <body>
   <header>
-    <h1>Sean</h1>
+    <h1 class="siteTitle">naesnaes</h1>
 
-<nav>
-  Navigation:
+<nav id="MAIN_NAV">
   <ul>
 <li>
   <a href="/">Home</a>
+</li>
+<li>
+  <a href="/projects/">Projects</a>
 </li>
 <li>
   <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
@@ -31,6 +49,9 @@
 <li>
   <a href="/tags/">Tags</a>
 </li>
+    <li>
+      <a href="index.xml">RSS</a>
+    </li>
   </ul>
 </nav>
 
@@ -42,9 +63,30 @@
 
   
   
-  <time datetime="2023-01-15T09:00:00-07:00">January 15, 2023</time>
+  <time datetime="2023-01-20T09:00:00-07:00">January 20, 2023</time>
 
   <p>This is a cool markdown file eh? hh</p>
+<p>Idk if this is actually useful.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a90d91">package</span> <span style="color:#000">main</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a90d91">func</span> <span style="color:#000">APICall</span>() (<span style="color:#000">http</span>.<span style="color:#000">Response</span>, <span style="color:#000">err</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#000">val</span>, <span style="color:#000">err</span> <span style="color:#000">:=</span> <span style="color:#000">http</span>.<span style="color:#000">Request</span>()
+</span></span><span style="display:flex;"><span>	<span style="color:#a90d91">if</span> <span style="color:#000">err</span> <span style="color:#000">!=</span> <span style="color:#a90d91">nil</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a90d91">return</span> <span style="color:#a90d91">nil</span>, <span style="color:#000">err</span>	
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#177500">// rest of processing
+</span></span></span><span style="display:flex;"><span><span style="color:#177500"></span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a90d91">func</span> <span style="color:#000">main</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>$$
+\sum_{i=1}^n i = \frac{n(n-1)}{2}
+$$</p>
+<h1 id="heading"></h1>
 
   
   <div>

@@ -1,8 +1,34 @@
 baseURL = 'https://naesna.es/'
 languageCode = 'en-us'
-title = 'Sean'
+title = 'naesnaes'
 theme = 'idgaf'
 
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Projects'
+pageRef = '/projects'
+weight = 15
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+
+[outputs]
+  posts = ["HTML", "RSS"]
+
+[params]
+  math = true
 
 [markup]
   [markup.highlight]

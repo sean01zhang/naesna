@@ -1,0 +1,4 @@
+# Ignore macos files
+.DS_Store
+
+public/

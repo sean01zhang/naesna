@@ -4,7 +4,11 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Posts | Sean</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+<title>Posts | naesnaes</title>
 
 <link rel="stylesheet" href="/css/normalize.css">
 <link rel="stylesheet" href="/css/main.css">
@@ -13,17 +17,31 @@
       <script src="/js/main.js"></script>
 
 
+  
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+
+  
 </head>
 
 <body>
   <header>
-    <h1>Sean</h1>
+    <h1 class="siteTitle">naesnaes</h1>
 
-<nav>
-  Navigation:
+<nav id="MAIN_NAV">
   <ul>
 <li>
   <a href="/">Home</a>
+</li>
+<li>
+  <a href="/projects/">Projects</a>
 </li>
 <li>
   <a aria-current="page" class="active" href="/posts/">Posts</a>
@@ -31,6 +49,9 @@
 <li>
   <a href="/tags/">Tags</a>
 </li>
+    <li>
+      <a href="index.xml">RSS</a>
+    </li>
   </ul>
 </nav>
 
@@ -38,13 +59,42 @@
   </header>
   <main>
     
-  <h1>Posts</h1>
+<h1 class="pageTitle">Posts</h1>
+<p>I intend this to index some of my knowledge-keeping and sharing.</p>
+
+
+<div class="listItem">
+  <h2><a href="/posts/archived/">Legacy Pages</a></h2>
   
+  <div class="listSummary">
+    <p>Here is a collection of links to pages that are no longer compatible with my current website.</p>
+<ul>
+<li><a href="/archive/in-one-weekend">Ray Tracing in One Weekend</a></li>
+<li><a href="/archive/testing-org-mode">Org CSS</a></li>
+</ul>
+  </div>
   
-    <h2><a href="/posts/post1/">Post 1</a></h2>
-    <p>This is a cool markdown file eh? hh</p>
+</div>
+
+<div class="listItem">
+  <h2><a href="/posts/previterations/">Previous Iterations</a></h2>
   
-    <h2><a href="/posts/firefox-vertical-tabs/">Firefox Vertical Tabs</a></h2>
+  <div class="listSummary">
+    <p>Since I keep changing the systems and design of my website, I decided to keep track of it.</p>
+<h2 id="v0---december-2022">V0 - December 2022</h2>
+<p>This was when I first acquired the domain name, <a href="https://naesna.es">naesna.es</a>.</p>
+<p>It started with plain HTML with no CSS at all.</p>
+<p>When I started using org-mode and Emacs, I began exporting them to HTML pages within org-mode for more self-documenting types of writing.</p>
+<h3 id="screenshots">Screenshots</h3>
+<p><img src="v0_naesnaes_homepage.png" alt="The Last Version of my Homepage"></p>
+  </div>
+  
+</div>
+
+<div class="listItem">
+  <h2><a href="/posts/firefox-vertical-tabs/">Firefox Vertical Tabs</a></h2>
+  
+  <div class="listSummary">
     <p>
 Here is a quick guide to setting up vertical tabs and removing the horizontal tab bar
 in Firefox..</p>
@@ -75,11 +125,18 @@ Remove Horizontal Tab Bar
 <p>This requires some more work. First, you&#39;ll need to add some CSS to
 your <code>userChrome.css</code> file, and then you&#39;ll have to enable stylesheet
 customization within Firefox.</p>
+  </div>
   
+</div>
+
 
   </main>
   <footer>
-    <p>Copyright 2024. All rights reserved.</p>
+    <hr>
+
+badges go here
+
+<p>Copyright 2024. All rights reserved.</p>
 
   </footer>
 </body>
