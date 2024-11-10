@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "24a3800ac2c5dc69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/_index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -231,27 +243,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6429841b17a003e1",
+  "active": "6a1d77928caee8fe",
   "lastOpenFiles": [
-    "public/resume.pdf",
-    "static/resume.pdf",
-    "public/sean_z_09_22_24 copy.pdf",
-    "static/sean_z_09_22_24 copy.pdf",
-    "public/sean_z_09_22_24.pdf",
-    "static/sean_z_09_22_24.pdf",
+    "layouts/partials/footer.html~",
+    "public/tags/index.xml",
+    "public/categories/index.xml",
+    "public/categories/index.html",
+    "public/categories",
+    "public/js/main.js",
+    "public/sitemap.xml",
+    "public/css/main.css",
+    "public/css/normalize.css",
+    "public/favicon.ico",
+    "public/tags/index.html",
+    "content/posts/eighteightxthreeone.md",
+    "public/website_button.gif",
+    "static/website_button.gif",
+    "content/_index.md",
     "templates.obsidian/newpost.md",
     "content/projects.md",
     "templates.obsidian/{{ date }}.md",
-    "content/updates",
     "content/posts/previterations.md",
-    "templates.obsidian/Untitled",
     "content/posts/_index.md",
     "content/posts/archived.md",
-    "layouts/partials/footer.html",
-    "layouts/footer.html",
-    "layouts/partials",
     "content/archive/in-one-weekend.md",
-    "content/_index.md",
     "public/archive/in-one-weekend/images/spheres-diffuse.png",
     "public/archive/in-one-weekend/images/spheres-diffuse-gammac.png",
     "public/archive/in-one-weekend/images/spheres-diffuse-gammac-noacne.png",
@@ -260,8 +275,6 @@
     "public/archive/in-one-weekend/images/spheres-diffuse-gammac-noacne-lg.png",
     "public/archive/in-one-weekend/images/red-circle.png",
     "public/archive/in-one-weekend/images/gradient.png",
-    "public/archive/in-one-weekend/images/gradient-rt.png",
-    "public/archive/in-one-weekend/images/gradient-mod.png",
     "content/uwaterloo/courses-w20.md",
     "content/uwaterloo/_index.md",
     "content/uwaterloo/courses-f19.md",
@@ -278,7 +291,6 @@
     "writing-good-go.md",
     "content/posts/post1.md",
     "content/posts/previousIterations.md",
-    "Things.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
