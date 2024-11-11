@@ -243,8 +243,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a1d77928caee8fe",
+  "active": "24a3800ac2c5dc69",
   "lastOpenFiles": [
+    "themes/idgaf/assets/css/main.css~",
     "CNAME",
     "layouts/partials/footer.html~",
     "public/tags/index.xml",
@@ -255,7 +256,6 @@
     "public/sitemap.xml",
     "public/css/main.css",
     "public/css/normalize.css",
-    "public/favicon.ico",
     "content/posts/eighteightxthreeone.md",
     "public/website_button.gif",
     "static/website_button.gif",
