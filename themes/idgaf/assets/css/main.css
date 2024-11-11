@@ -108,3 +108,40 @@ blockquote {
   background: #997ead11;
   border-left: 2px solid #997ead;
 }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: #ddd;
+  }
+
+  a {
+    color: #b4aee8;
+  }
+
+  #MAIN_NAV {
+    border-bottom-color: #ddd;
+  }
+
+  hr {
+    border-top-color: #444;
+  }
+
+  #MAIN_NAV ul>li {
+    color: #b4aee8;
+  }
+
+  div.highlight>pre {
+    background-color: #444;
+  }
+
+  blockquote {
+    background: #b4aee811;
+    border-left-color: #b4aee8;
+  }
+
+  .listSummary:after {
+    background: linear-gradient(transparent, #222);
+  }
+}
