@@ -20,4 +20,4 @@ Fun
 IDK. I ended up making it using paint.js. Then, I exported a few variations to get it animated. Finally, I took the collection of images and assembled it into a gif!
 
 Here is mine:
-![](website_button.gif)
+![](/badges/naesna.gif)

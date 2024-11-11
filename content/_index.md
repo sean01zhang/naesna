@@ -11,7 +11,11 @@ Welcome to my website!
 - [GitHub](https://github.com/sean01zhang)
 - [Resume](/resume.pdf)
 - Previous Versions of [My Website](./posts/previterations)
+### Badges
 
-> **Work-in-progress**
+![](badges/hxdino.gif)
+
+> **This page is a work-in-progress.** The following are coming soon:
 > - Federation
 > - My Contacts
+> - More badges?
