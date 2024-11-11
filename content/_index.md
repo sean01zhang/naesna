@@ -13,7 +13,7 @@ Welcome to my website!
 - Previous Versions of [My Website](./posts/previterations)
 ### Badges
 
-![](badges/hxdino.gif)
+[![](badges/hxdino.gif)](https://hexadecimaldinosaur.com)
 
 > **This page is a work-in-progress.** The following are coming soon:
 > - Federation
