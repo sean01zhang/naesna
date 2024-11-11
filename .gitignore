@@ -2,3 +2,6 @@
 .DS_Store
 
 public/
+
+# Ignore temporary obsidian files
+.obsidian/workspace*
