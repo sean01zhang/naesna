@@ -1,21 +1,19 @@
 ## About Me
 
-I am Sean, and I am
+My name is Sean, and I am a 4th year CS undergrad at the University of Waterloo. I am currently interning at Verily as a Software Developer.
 
- - A 4th year at the University of Waterloo
- - A software developer intern at Verily
+|              |                                                       |
+| ------------ | ----------------------------------------------------- |
+| **Email**    | `[firstName][at][this fqdn]`                          |
+| **GitHub**   | [sean01zhang](https://github.com/sean01zhang)         |
+| **Linkedin** | [in/sean01zhang](https://linkedin.com/in/sean01zhang) |
+## Recently Updated
 
-Welcome to my website!
+{{< recentPosts  5 >}}
 
-### Links of Interest
-- [GitHub](https://github.com/sean01zhang)
-- [Resume](/resume.pdf)
-- Previous Versions of [My Website](./posts/previterations)
-### Badges
+---
+Here are a few badges of friends:
 
 [![](badges/hxdino.gif)](https://hexadecimaldinosaur.com)
 
-> **This page is a work-in-progress.** The following are coming soon:
-> - Federation
-> - My Contacts
-> - More badges?
+

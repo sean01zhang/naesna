@@ -1,0 +1,8 @@
+{{ $count := .Get 0 | default 3 }}
+<ol>
+{{ range $index, $page := site.RegularPages }}
+  {{ if lt $index $count }}
+    <li><a href="{{ $page.RelPermalink }}">{{ $page.LinkTitle }}</a></li>
+  {{ end }}
+{{ end }}
+</ol>
