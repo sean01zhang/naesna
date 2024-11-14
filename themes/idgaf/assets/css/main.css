@@ -145,7 +145,11 @@ blockquote {
   }
 
   a {
-    color: #b4aee8;
+    color: #ddd;
+  }
+
+  a:after {
+    background-color: #624286;
   }
 
   #MAIN_NAV {
