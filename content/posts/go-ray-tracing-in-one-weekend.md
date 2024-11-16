@@ -99,8 +99,8 @@ func (v0 *Vec3) Dot(v1 *Vec3) float64 {
 	return v0.X * v1.X + v0.Y * v1.Y + v0.Z * v1.Z
 }
 
-func (v0 *Vec3) Cross() Vec3 {
-
+func (v0 *Vec3) Cross(v1 *Vec3) Vec3 {
+	return 
 }
 
 ```
