@@ -137,6 +137,12 @@ blockquote {
   border-left: 2px solid #997ead;
 }
 
+p code, table code, li>code {
+  background: #997ead1d;
+  padding: 4px 6px;
+  font-size: 0.8rem;
+}
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {

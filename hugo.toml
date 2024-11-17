@@ -32,4 +32,4 @@ weight = 30
 
 [markup]
   [markup.highlight]
-    style = 'xcode'
+    style = 'monokai'
