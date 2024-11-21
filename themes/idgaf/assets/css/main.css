@@ -67,7 +67,8 @@ hr {
   border-top: 2px dotted lightgray;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 2rem;
 }
 
@@ -137,7 +138,9 @@ blockquote {
   border-left: 2px solid #997ead;
 }
 
-p code, table code, li>code {
+p code,
+table code,
+li>code {
   background: #997ead1d;
   padding: 4px 6px;
   font-size: 0.8rem;
