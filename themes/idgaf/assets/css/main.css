@@ -24,7 +24,7 @@ h1.siteTitle {
   font-style: italic;
 }
 
-a:has(img):after {
+a:has(img):after, .Tags a:after {
   content: none;
 }
 
@@ -144,6 +144,28 @@ li>code {
   background: #997ead1d;
   padding: 4px 6px;
   font-size: 0.8rem;
+}
+
+.Tags {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+
+.Tags>ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Tags>ul>li {
+  display: inline;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid #dac1f4;
+  border-radius: 2rem;
+  font-family: monospace;
+  font-size: 0.9rem;
 }
 
 /* Dark mode */
