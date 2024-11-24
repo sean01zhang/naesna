@@ -4,7 +4,6 @@ date = 2024-11-15T19:36:55-05:00
 draft = true
 tags = ["golang"]
 +++
-# Introduction
 
 Yeah, so I've done this [before](archive/in-one-weekend), but in C++. I did this almost two years ago, but I would like to see how easy it would be to do it in go.
 

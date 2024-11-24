@@ -5,8 +5,6 @@ draft = true
 tags = ["golang"]
 +++
 
-# Motivation
-
 As a new developer (not just in golang but in general), I do not have extensive experience in making high-performance programs. So, I want to document my journey into trying to make go programs that run fast!
 
 I use go extensively at work, but I do not get to write
