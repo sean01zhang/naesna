@@ -24,7 +24,8 @@ h1.siteTitle {
   font-style: italic;
 }
 
-a:has(img), .Tags a {
+a:has(img),
+.Tags a {
   box-shadow: none;
 }
 

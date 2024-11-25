@@ -1,9 +1,11 @@
 +++
 title = "Notes on Git"
-date = 2024-11-22T21:47:54-05:00
-draft = true
+date = 2024-11-24T22:59:00-05:00
+draft = false
 tags = ["My Config", "git"]
 +++
+
+
 
 Since `git` is a massive tool, I want to showcase some things I like using!
 
@@ -93,10 +95,18 @@ When it comes time to rebase `featureB`, things might get complicated. If this c
 
 You will need to identify which commits are unique to `featureB` and drop the work that is not unique to `featureB`.
 
-# Shell Aliases for Git 
 
 > **Related: Git Subcommand Aliases**
 > 
 > You can also alias git subcommands using your git config. From the git book: https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 
-WIP
+# Git's Config
+
+## Auto Setup Remote
+
+Automatically creates a branch upstream to track this local branch.
+
+```
+[push]
+	autoSetupRemote=true
+```
