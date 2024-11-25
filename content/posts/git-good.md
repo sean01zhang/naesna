@@ -106,7 +106,7 @@ You will need to identify which commits are unique to `featureB` and drop the wo
 
 Automatically creates a branch upstream to track this local branch.
 
-```
+```toml
 [push]
 	autoSetupRemote=true
 ```

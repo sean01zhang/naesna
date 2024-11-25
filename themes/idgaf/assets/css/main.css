@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Noto Serif", serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
