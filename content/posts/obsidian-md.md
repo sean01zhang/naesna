@@ -12,6 +12,7 @@ For writing things slightly less trivial than a few words in a file (like images
 Here is a guide to my configuration of my obsidian workspace.
 
 > **Newb Alert**
+> 
 > I am new to obsidian! The purpose of this post is more of an informal show-and-tell rather than an authoritative guide. Feel free to share with me how you use obsidian :)
 
 # Copying
