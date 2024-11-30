@@ -154,7 +154,7 @@ alias gpf "git push --force"
 
 ## Navigating to Common Repos
 
-At work, I usually frequent 2-3 repos. I usually store my `git` repos in `~/documents/git` or `~/git`, so this is not *necessarily required*. However, this alias has found itself more than just a shortcut to doing a quick `cd` from my home dir.
+At work, I usually frequent 2-3 repos. I usually store my `git` repos in `~/documents/git` or `~/git`, so this is not *necessarily required*. However, this alias has found itself more uses than just a shortcut to doing a quick `cd` from my home dir.
 
 For example, 
 - I use it a lot to backtrack to the root of the repository. 
