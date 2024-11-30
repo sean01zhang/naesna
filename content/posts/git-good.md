@@ -1,11 +1,9 @@
 +++
 title = "Notes on Git"
-date = 2024-11-24T22:59:00-05:00
+date = 2024-11-30T15:46:00
 draft = false
 tags = ["My Config", "git"]
 +++
-
-
 
 Since `git` is a massive tool, I want to showcase some things I like using!
 
@@ -95,10 +93,77 @@ When it comes time to rebase `featureB`, things might get complicated. If this c
 
 You will need to identify which commits are unique to `featureB` and drop the work that is not unique to `featureB`.
 
+## Pushing a Locally Created Branch Upstream
+
+Have you ever tried pushing a branch you created locally upstream and gotten this message?
+
+```
+fatal: The current branch asdf has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin asdf
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+```
+
+One way to fix this is to set your `git` config to [automatically setup remote](#auto-setup-remote), but maybe you don't want to do this.
+
+However, to type the full command to set upstream can get quite cumbersome. Especially if you have very long branch names. One branchname-agnostic way of pushing to remote and setting your upstream branch name to your current local branch name is:
+
+```fish
+git push -u origin HEAD
+```
+
+You can even alias it to something quick!
+# Shell Aliases for Git
 
 > **Related: Git Subcommand Aliases**
 > 
 > You can also alias git subcommands using your git config. From the git book: https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+
+## Switching Branches
+
+First of all, thank you to [Allen (algao1.github.io/blurb)](https://algao1.github.io/blurb) for this wonderful alias for fuzzy switching branches.
+
+Note: This alias requires [`fzf`](https://github.com/junegunn/fzf).
+
+**Bash**
+```bash
+alias gch='git checkout $(git for-each-ref --format="%(refname:short)" refs/heads/ | fzf)'
+```
+
+**Fish**
+```fish
+alias gch 'git checkout $(git for-each-ref --format="%(refname:short)" refs/heads/ | fzf)'
+```
+
+## Force Pushing
+
+As a serial `git` history rewriter, I oftentimes have to force-push to my remote branch to erase my tracks.
+
+**Bash**
+```bash
+alias gpf="git push --force"
+```
+
+**Fish**
+```fish
+alias gpf "git push --force"
+```
+
+## Navigating to Common Repos
+
+At work, I usually frequent 2-3 repos. I usually store my `git` repos in `~/documents/git` or `~/git`, so this is not *necessarily required*. However, this alias has found itself more than just a shortcut to doing a quick `cd` from my home dir.
+
+For example, 
+- I use it a lot to backtrack to the root of the repository. 
+- I use it to switch repositories (since I can't `fzf` my way out of there)
+
+```fish
+# for navigating to my website repo
+alias naesna "cd ~/git/naesna"
+```
 
 # Git's Config
 
@@ -110,3 +175,4 @@ Automatically creates a branch upstream to track this local branch.
 [push]
 	autoSetupRemote=true
 ```
+
