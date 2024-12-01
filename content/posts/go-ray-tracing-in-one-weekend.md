@@ -13,7 +13,7 @@ I will also try to do this from memory only -- so let's see how well this goes!
 
 I wanted to write a post about profiling and improving performance of my go programs, but I haven't written anything yet. So the most trivial thing I can write off of the top of my memory is a brute-force ray tracer.
 
-# What I remember
+### What I remember
 
 Please be warned, this may not paint a complete picture (no pun intended).
 
@@ -22,7 +22,7 @@ Please be warned, this may not paint a complete picture (no pun intended).
 	- From those objects, we shoot out more rays and average the light coming in.
 	- We do this recursively
 
-# Ray Intersection
+## Ray Intersection
 
 To start, let's get some object intersection working, meaning we will also need to get image output and some objects. We should:
 
@@ -30,7 +30,7 @@ To start, let's get some object intersection working, meaning we will also need 
 - Create a vector package
 - Create a tracer object
 
-## Shapes
+### Shapes
 
 
 ```go
