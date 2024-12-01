@@ -10,7 +10,7 @@ Since `git` is a massive tool, I want to showcase some things I like using!
 I assume the reader has some familiarity with Git in this article. For those new to Git or
 want a good refresher, I recommend the [git book](https://git-scm.com/book/en/v2). 
 
-# Git's Tools
+## Git's Tools
 
 > **Aside: Writing Commit Messages**
 > 
@@ -23,7 +23,7 @@ want a good refresher, I recommend the [git book](https://git-scm.com/book/en/v2
 > A good read is [Conventional Commits](https://conventionalcommits.org), even if you don't fully implement their spec.
 > Personally, I have adopted `fix`, `feat`, and `style`, since it's very little overhead.
 
-## Worktrees
+### Worktrees
 
 Docs: [git-worktree](https://git-scm.com/docs/git-worktree)
 
@@ -53,7 +53,7 @@ git worktree remove path/to/worktree
 
 I like putting my worktrees in a `.worktree` folder within my repo, though there is no arbitrary limitation on where this worktree is not allowed to live.
 
-## Amending Last Commit
+### Amending Last Commit
 
 `git commit --amend`
 
@@ -62,7 +62,7 @@ This is good for:
 2. Adding new changes that you might have missed (like a typo, or a minor fix)
 
 > **Note:** If you want to synchronize with a remote branch, you will need to force push it upstream!
-## Rebasing
+### Rebasing
 
 While writing this section, I found this section of the git-book very useful (so useful that I question the value of this section). It's worth a read: https://git-scm.com/book/en/v2/Git-Branching-Rebasing
 
@@ -93,7 +93,7 @@ When it comes time to rebase `featureB`, things might get complicated. If this c
 
 You will need to identify which commits are unique to `featureB` and drop the work that is not unique to `featureB`.
 
-## Pushing a Locally Created Branch Upstream
+### Pushing a Locally Created Branch Upstream
 
 Have you ever tried pushing a branch you created locally upstream and gotten this message?
 
@@ -116,13 +116,13 @@ git push -u origin HEAD
 ```
 
 You can even alias it to something quick!
-# Shell Aliases for Git
+## Shell Aliases for Git
 
 > **Related: Git Subcommand Aliases**
 > 
 > You can also alias git subcommands using your git config. From the git book: https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 
-## Switching Branches
+### Switching Branches
 
 First of all, thank you to [Allen (algao1.github.io/blurb)](https://algao1.github.io/blurb) for this wonderful alias for fuzzy switching branches.
 
@@ -138,7 +138,7 @@ alias gch='git checkout $(git for-each-ref --format="%(refname:short)" refs/head
 alias gch 'git checkout $(git for-each-ref --format="%(refname:short)" refs/heads/ | fzf)'
 ```
 
-## Force Pushing
+### Force Pushing
 
 As a serial `git` history rewriter, I oftentimes have to force-push to my remote branch to erase my tracks.
 
@@ -152,7 +152,7 @@ alias gpf="git push --force"
 alias gpf "git push --force"
 ```
 
-## Navigating to Common Repos
+### Navigating to Common Repos
 
 At work, I usually frequent 2-3 repos. I usually store my `git` repos in `~/documents/git` or `~/git`, so this is not *necessarily required*. However, this alias has found itself more uses than just a shortcut to doing a quick `cd` from my home dir.
 
@@ -165,9 +165,9 @@ For example,
 alias naesna "cd ~/git/naesna"
 ```
 
-# Git's Config
+## Git's Config
 
-## Auto Setup Remote
+### Auto Setup Remote
 
 Automatically creates a branch upstream to track this local branch.
 

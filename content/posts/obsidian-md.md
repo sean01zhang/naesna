@@ -15,7 +15,7 @@ Here is a guide to my configuration of my obsidian workspace.
 > 
 > I am new to obsidian! The purpose of this post is more of an informal show-and-tell rather than an authoritative guide. Feel free to share with me how you use obsidian :)
 
-# Copying
+## Copying
 
 My obsidian configuration is intentionally checked-in to my git repo. Feel free to copy this as a starting point for your own configuration!
 
@@ -24,10 +24,10 @@ My obsidian configuration is intentionally checked-in to my git repo. Feel free 
 	- `.obsidian` contains the plugins I use and other general settings
 	- `templates.obsidian` contains some templates I use to help bootstrap a new pages on my website.
 
-# Settings
+## Settings
 
 Honestly, I don't really remember what I set. 
-## Editor
+### Editor
 
 Here are a few things I probably set if they aren't already enabled:
 
@@ -37,24 +37,24 @@ Here are a few things I probably set if they aren't already enabled:
 - Spellcheck: Yes
 - Vim motions: Of course
 
-## Keybinds
+### Keybinds
 
 As a `vim` motions fan, there were a few obsidian keybinds that interfered with my vim motions. I believe it was either `C-d` or `C-u`. If you use Windows or Linux, make sure you check this!
 
-## Templates
+### Templates
 
 For my website, I have a templates folder called `templates.obsidian`. In my Obsidian settings, I set the templates folder to that.
 
-# Plugins
+## Plugins
 
 Obsidian is *almost* the perfect markdown editor. My extra plug-ins are mainly to plug the feature gaps of vim motions in obsidian.
 
-## Relative Line Numbers
+### Relative Line Numbers
 
 **[Link](obsidian://show-plugin?id=obsidian-relative-line-numbers) to plugin**
 
 Relative line numbers is self-explanatory. When using vim, it is very helpful to know how far lines are relative to your current one so that it is easier to jump to them (i.e. `13k` goes up 13 lines).
-## Vimrc Support
+### Vimrc Support
 
 **[Link](obsidian://show-plugin?id=obsidian-vimrc-support) to plugin**
 

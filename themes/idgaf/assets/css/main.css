@@ -159,6 +159,11 @@ li>code {
   font-size: 0.9rem;
 }
 
+.header-tag {
+  box-shadow: none;
+  color: #dac1f4;
+}
+
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
   body {
@@ -168,7 +173,7 @@ li>code {
 
   a {
     color: #ddd;
-    box-shadow: inset 0 -3px #624286;
+    box-shadow: inset 0 -3px #866da3;
   }
 
   #MAIN_NAV {
@@ -197,6 +202,10 @@ li>code {
   }
 
   .Tags>ul>li {
-    border-color: #624286;
+    border-color: #866da3;
+  }
+
+  .header-tag {
+    color: #866da3;
   }
 }
