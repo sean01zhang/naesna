@@ -65,6 +65,9 @@ hr {
 ul,
 ol {
   padding-left: 2rem;
+}
+
+li {
   margin: 0.3rem 0;
 }
 
