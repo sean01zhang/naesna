@@ -26,3 +26,25 @@ This is interesting, so as long as `go` can find your source code, your go modul
 > **Update**
 > 
 > `src.naesna.es` now redirects to my GitHub! I'll try to reference projects using this link so it is easy to move providers in the future :)
+
+## Considerations when Using Private Repositories
+
+How do I use go modules that are not available to the public? The go modules documentation goes over this in very good detail [here](https://go.dev/doc/modules/managing-dependencies#proxy_server).
+
+If you care about privacy (suppose this is for work), [the go reference documents some good practices for this](https://go.dev/ref/mod#private-module-privacy).
+
+If you want to drill even deeper into `GOPROXY`, I [linked the reference here](https://go.dev/ref/mod#goproxy-protocol).
+
+My cliff-notes: 
+
+- Go tries to download your module from multiple sources, defined by the `GOPROXY` environment variable.
+	- By default, it is set to: `GOPROXY="https://proxy.golang.org,direct"`
+	- This attempts to find it using the Google-operated proxy, and then tries to directly download it from the repository.
+- If privacy is important, it is recommended to set the `GOPRIVATE` environment variable to catch module prefixes that should not be requested by *any* proxy.
+- [To access private repos directly](https://go.dev/ref/mod#private-module-repo-auth), you can set up your `.gitconfig` to rewrite the `https://` url to use ssh instead.
+	- If you have registered your `ssh` key with your git host and given it permission to access the private repository, this will allow go to access your private module.
+	- For example, if your repo is stored in GitHub, you can use the following command:
+		```bash
+		git config url."git@github.com:".insteadOf "https://github.com"
+		```
+
