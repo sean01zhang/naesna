@@ -9,23 +9,23 @@ I wanted to write about this day, since I thought of a nice way to solve this, w
 
 I'll give a bit of a teaser: Topological Sort.
 
-# Problem
+## Problem
 
 Go check out the real website, https://adventofcode.com/2024/day/5 for a full picture, but I'll try to give as concise of a summary as possible.
 
-## Your Input
+### Your Input
 
 1. You are given a set of rules, like `a|b`, meaning number `a` must come before number `b`
 2. You are given a few arrays of numbers, and
 	1. For Part 1, you must sum the middle number of all arrays that conform to the above set of rules.
 	2. For Part 2, you must sort the invalid arrays and find the sum of their middle numbers.
 
-# Solution
+## Solution
 
 > **Context**
 > You are only given the first problem until you solve the second one.
 
-## Part 1: Naive Approach
+### Part 1: Naive Approach
 
 With only the first problem in mind, the idea is that I can save the the rules as a `map[int][]int` where I map each number to a list of numbers that must come before it.
 
@@ -37,7 +37,7 @@ When you get to part 2, this approach sort-of (no pun intended) falls apart.
 
 I guess the idea could be to insert a violating number ahead of the current number, but then you would need to re-do this until the array is completely sorted. In other words, you could attempt an insertion sort. However, there is a more clever way to get around this.
 
-## Part 2: Topological Sort
+### Part 2: Topological Sort
 
 I think it is fair to assume the ordering rules will be unambiguous. In other words, you wont have a "cycle" where `A` needs to come before `B` and `B` needs to come before `A`. The word "cycle" will be important later.
 
@@ -71,7 +71,7 @@ Then for each invalid array, we can map it to the indices in the topologically s
 
 Here is a link to the wikipedia page for topological sort: https://en.wikipedia.org/wiki/Topological_sorting
 
-# The Code
+## The Code
 
 - [Day 5 (src.naesna.es/aoc/blob/main/go/2024/day5.go)](https://src.naesna.es/aoc/blob/main/go/2024/day5.go)
 - [DAG (src.naesna.es/aoc/blob/main/go/internal/util/graph.go)](https://src.naesna.es/aoc/blob/main/go/internal/util/graph.go)
