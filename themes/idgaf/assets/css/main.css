@@ -216,4 +216,8 @@ li>code {
   .header-tag {
     color: #866da3;
   }
+
+  .mermaid {
+    filter: invert(0.9);
+  }
 }
