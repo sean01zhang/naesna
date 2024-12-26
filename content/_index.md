@@ -1,6 +1,6 @@
 ## About Me
 
-My name is Sean, and I am a 4th year CS undergrad at the [University of Waterloo](https://uwaterloo.ca). I am currently interning at [Verily](https://verily.com) as a Software Developer.
+My name is Sean, and I am a 4th year CS undergrad at the [University of Waterloo](https://uwaterloo.ca).
 
 |              |                                                       |
 | ------------ | ----------------------------------------------------- |
