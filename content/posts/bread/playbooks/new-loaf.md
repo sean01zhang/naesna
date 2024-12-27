@@ -39,7 +39,7 @@ This playbook documents the process needed to create a sourdough from your start
 		- Put dough in.
 	- Put dutch oven back in, wait for 35 mins @ 450 F
 	- Lid off 20 mins @ 450 F
-
+- Once bread is baked, leave on cooling tray to cool, for approximately 1 hour.
 ## Notes
 
 - The reference recipe calls for the dough to be shaped and put into the dutch oven while it is warming up.
