@@ -6,6 +6,10 @@ draft = false
 
 Reference Recipe: [King Arthur no knead](https://www.kingarthurbaking.com/recipes/no-knead-sourdough-bread-recipe)
 
+Supplemental Videos Watched:
+- [Bake the Perfect Sourdough Bread: A Step-by-Step Guide (Natashas Kitchen)](https://www.youtube.com/watch?v=4gEoh3sk2AE)
+- 
+
 This playbook documents the process needed to create a sourdough from your starter in as much detail as possible.
 
 ## Prologue
@@ -15,30 +19,41 @@ This playbook documents the process needed to create a sourdough from your start
 
 ## Recipe
 
+> Note: To try: maybe an autolyse to build more gluten to trap bubbles?
+> Incorporate starter, then incorporate salt?
+> 2% Salt? But higher salt content allows for more flexibility
+
 - 600g bread flour into bowl
 - 18g kosher salt (3% of flour weight) into bowl
 - 227g (1 cup) sourdough starter into bowl
 - 397g of lukewarm water
-- Mix well, wait for an hour
-- Stretch and fold, wait for an hour
-- Stretch and fold, wait for an hour
-- Stretch and fold;
-- Line proofing basket with a generous amount of flour. Transfer dough into proofing basket.
-- Resting: 5 hours room temp, or 8 hours in fridge.
-	- If fridge: When you take the dough out, make sure it warms to room temperature for 2? hours before using it (Need to experiment).
-	- ==(Experimental) Place dough on maybe a tray & put in oven to warm?==
+- Mix well
+- Bulk Fermentation:
+	- Set dough in room temperature and wait for an hour
+		- Windowpane test; Dough should be stretchy enough allow you to create a windowpane
+	- Stretch and fold, wait for an hour
+		- You can use water to lubricate; Be gentle with the dough
+	- Stretch and fold, wait for an hour
+	- Stretch and fold;
+- Transfer dough to floured mat, and shape by folding it in
+	- Then also cup sides to get a round shape.
+- Cold Fermentation
+	- Once shaped, flour banneton (with cloth or without, optional) with bread flour, or rice flour if available
+	- Place dough *seam side up* into basket
+	- Cover with a lid and place in fridge for 8 hours, but we can maximize for more.
 - Once dough is ready
-	- Place a tray at the bottom of the oven. Put dutch oven (with lid on) into oven.
+	- Place a tray at the bottom of the oven. This helps reduce intensity of heat on the bottom of the bread, leading to less browning.
+	- Put dutch oven (with lid on) into oven.
 	- Preheat oven to 450 F.
-	- Shape dough into shape wanted.
 - Once oven is preheated
-	- Gently sprinkle flour on the sourdough.
+	- Take sourdough out of fridge.
 	- Score sourdough. Make sure to do enough such that it has room to expand.
 	- Take dutch oven out
-		- Sprinkle flour on the bottom
+		- Sprinkle generous amounts of flour on the bottom
 		- Put dough in.
 	- Put dutch oven back in, wait for 35 mins @ 450 F
 	- Lid off 20 mins @ 450 F
+		- (Experimental) High rack makes it a bit hard to do 20 mins, reduce time?
 - Once bread is baked, leave on cooling tray to cool, for approximately 1 hour.
 ## Notes
 
