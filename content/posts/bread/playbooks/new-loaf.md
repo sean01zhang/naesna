@@ -1,6 +1,6 @@
 +++
 title = "New Sourdough Bread 🍞"
-date = 2024-12-26T20:50:14-05:00
+date = 2024-12-30T20:50:14-05:00
 draft = false
 +++
 
@@ -65,7 +65,8 @@ This playbook documents the process needed to create a sourdough from your start
 
 | Owner | Last Update | Version |
 | ----- | ----------- | ------- |
-| sean@ | 2024-12-26  | 1.0     |
+| sean@ | 2024-12-30  | 1.1     |
 ## Changelog
 
 - 2024-12-26: Initial Version
+- 2024-12-30: Separated bulk fermentation and cold fermentation. Also removed experiment to bring dough temp up after cold fermentation.
