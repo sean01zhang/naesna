@@ -14,6 +14,6 @@ My name is Sean, and I am a 4th year CS undergrad at the [University of Waterloo
 ---
 Here are a few badges of friends:
 
-[![](badges/hxdino.gif)](https://hexadecimaldinosaur.com) [![](badges/zerotiger.gif)](https://zerotiger.ca)
+[![](badges/hxdino.gif)](https://hexadecimaldinosaur.com) [![](badges/zerotiger.gif)](https://zerotiger.ca) [![](badges/fagao.png)](https://algao1.github.io/blurb)
 
 
