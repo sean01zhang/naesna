@@ -9,10 +9,9 @@ This directory documents sourdough. This page indexes some pages in this documen
 
 Playbooks: [`./playbooks`](playbooks)
 - [Create a new bread loaf](playbooks/new-loaf)
-- TBA
+- [Feeding starter](playbooks/feeding-starter)
 
 Logs: [`./logs`](logs)
-- None yet. Stay tuned!
 
 ---
 

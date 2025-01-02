@@ -8,7 +8,7 @@ Reference Recipe: [King Arthur no knead](https://www.kingarthurbaking.com/recipe
 
 Supplemental Videos Watched:
 - [Bake the Perfect Sourdough Bread: A Step-by-Step Guide (Natashas Kitchen)](https://www.youtube.com/watch?v=4gEoh3sk2AE)
-- 
+- [Make Beautiful Sourdough | NYTimes](https://www.youtube.com/watch?v=-JRSF-zDgvk)
 
 This playbook documents the process needed to create a sourdough from your starter in as much detail as possible.
 
