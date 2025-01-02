@@ -9,5 +9,3 @@ Each page in this directory documents a potential scenario and ways to address i
 
 ---
 
-**Recently Updated**
-

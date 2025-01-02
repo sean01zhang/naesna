@@ -2,6 +2,7 @@
 title = "New Sourdough Bread 🍞"
 date = 2024-12-30T20:29:00-05:00
 draft = false
+tags = ['sourdough']
 +++
 
 Reference Recipe: [King Arthur no knead](https://www.kingarthurbaking.com/recipes/no-knead-sourdough-bread-recipe)

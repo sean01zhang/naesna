@@ -1,7 +1,8 @@
 +++
-title = "Feeding Starter"
+title = "Feeding Sourdough Starter"
 date = 2025-01-02T15:31:24-05:00
 draft = false
+tags = ['sourdough']
 +++
 
 This playbook documents how you should feed your starter. It assumes you have a starter already.
