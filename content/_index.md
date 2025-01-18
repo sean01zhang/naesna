@@ -16,4 +16,6 @@ Here are a few badges of friends:
 
 [![](badges/hxdino.gif)](https://hexadecimaldinosaur.com) [![](badges/zerotiger.gif)](https://zerotiger.ca) [![](badges/fagao.png)](https://algao1.github.io/blurb)
 
+Webrings:
 
+[<--](https://cs.uwatering.com/#https://seanzhang.ca?nav=prev) [UWaterloo CS](https://cs.uwatering.com/#https://seanzhang.ca) [-->](https://cs.uwatering.com/#https://seanzhang.ca?nav=next)

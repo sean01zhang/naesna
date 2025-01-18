@@ -10,7 +10,8 @@ Here is what I plan to take in Winter 2025:
 - BET210
 - MATH237
 - ECE459
-- JAPAN301
+- ~~JAPAN301~~[^3]
+- CS479
 
 Here are the results of my course selection:
 - CS453
@@ -21,3 +22,4 @@ Here are the results of my course selection:
 
 [^1]: Course Conflict with MATH235
 [^2]: Need ECE professor consent to override into this course
+[^3]: Course got cancelled
