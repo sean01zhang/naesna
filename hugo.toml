@@ -1,6 +1,6 @@
 baseURL = 'https://naesna.es/'
 languageCode = 'en-us'
-title = "Sean"
+title = "sean zhang"
 theme = 'idgaf'
 
 [[menus.main]]

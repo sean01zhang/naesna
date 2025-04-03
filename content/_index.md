@@ -2,7 +2,7 @@
 
 I am a 4th year CS student at the [University of Waterloo](https://uwaterloo.ca).
 
-I use my website to document things I've been thinking about or have been doing, mainly for the benefit of myself in the future.
+I use my website to document things I've been thinking about or have been doing.
 
 |              |                                                       |
 | ------------ | ----------------------------------------------------- |
@@ -14,7 +14,7 @@ I use my website to document things I've been thinking about or have been doing,
 
 ## Posts
 
-{{< recentPosts 4 >}}
+{{< recentPosts 8 >}}
 
 
 ---
