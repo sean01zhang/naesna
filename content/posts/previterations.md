@@ -1,7 +1,7 @@
 +++
 title = 'Previous Iterations'
 date = 2024-11-09
-draft = false
+draft = true
 tags = ['blog']
 +++
 

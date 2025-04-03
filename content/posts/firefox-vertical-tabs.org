@@ -1,6 +1,12 @@
 #+title: Firefox Vertical Tabs
 #+OPTIONS: toc:nil num:3 H:4 ^:nil pri:t
 
+#+begin_quote
+*This article is outdated*. Firefox added vertical tab support in firefox 136.
+
+See here: https://support.mozilla.org/en-US/kb/use-sidebar-access-tools-and-vertical-tabs
+#+end_quote
+
 Here is a quick guide to setting up vertical tabs and removing the horizontal tab bar
 in Firefox..
 

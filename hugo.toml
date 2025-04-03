@@ -1,17 +1,12 @@
 baseURL = 'https://naesna.es/'
 languageCode = 'en-us'
-title = 'naesnaes'
+title = "Sean"
 theme = 'idgaf'
 
 [[menus.main]]
 name = 'Home'
 pageRef = '/'
 weight = 10
-
-[[menus.main]]
-name = 'Projects'
-pageRef = '/projects'
-weight = 15
 
 [[menus.main]]
 name = 'Posts'

@@ -11,9 +11,15 @@ Here is what I plan to take in Winter 2025:
 - MATH237
 - ECE459
 - ~~JAPAN301~~[^3]
-- CS479
 
 Here are the results of my course selection:
+- CS453
+- ECE459[^2]
+- MATH235
+- BET210
+- ~~CS442~~[^1]
+
+My final set of courses:
 - CS453
 - ECE459[^2]
 - MATH235

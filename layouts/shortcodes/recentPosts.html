@@ -1,8 +1,26 @@
 {{ $count := .Get 0 | default 3 }}
-<ol>
+<ul id="recentPosts">
 {{ range $index, $page := site.RegularPages }}
   {{ if lt $index $count }}
-    <li><a href="{{ $page.RelPermalink }}">{{ $page.LinkTitle }}</a></li>
+  <li class="post">
+    <a class="postTitle" href="{{ $page.RelPermalink }}">
+      <span>{{ $page.LinkTitle }}</span>
+    </a>
+    <div class="summary">
+      {{ $page.Summary }}
+    </div>
+    <div class="metadata">
+      <span>
+        <b>{{ $page.Date | dateFormat "2006-01-02" }}</b> | {{ $page.WordCount }} words
+      </span>
+      <div class="tags">
+        {{ range $tag := $page.Params.tags }}
+        <span>#{{ $tag }}</span>
+        {{ end }}
+      </div>
+    </div>
+  </li>
   {{ end }}
 {{ end }}
-</ol>
+</ul>
+<a href="/posts">More posts »</a>

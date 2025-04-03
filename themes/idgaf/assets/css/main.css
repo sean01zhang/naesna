@@ -25,7 +25,8 @@ h1.siteTitle {
   margin: 0;
   margin-top: 1rem;
   font-family: "Times New Roman", serif;
-  font-style: italic;
+  /* font-size: 22px; */
+  /* font-style: italic; */
 }
 
 a:has(img),
@@ -145,6 +146,52 @@ li>code {
   font-size: 0.8rem;
 }
 
+#recentPosts {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#recentPosts {
+  .post {
+    padding: 0.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+    border-radius: 0rem;
+    position: relative;
+  }
+
+  .postTitle {
+    font-size: 17px;
+    display: block;
+    font-weight: 600;
+    box-shadow: none;
+  }
+
+  .metadata {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+  }
+
+  .summary {
+    height: 50px;
+    overflow: hidden;
+    mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+    mask-mode: alpha;
+  }
+
+  .summary > p {
+    margin-top: 0.4rem;
+  }
+
+  .metadata > .tags span {
+    font-family: monospace;
+    padding: 2px 6px;
+    background: #997ead1d;
+  }
+}
+
 .Tags {
   display: flex;
   flex-direction: row;
@@ -170,6 +217,10 @@ li>code {
 .header-tag {
   box-shadow: none;
   color: #dac1f4;
+}
+
+footer > hr {
+  margin-top: 75px;
 }
 
 /* Dark mode */
