@@ -20,10 +20,6 @@ This playbook documents the process needed to create a sourdough from your start
 
 ## Recipe
 
-> Note: To try: maybe an autolyse to build more gluten to trap bubbles?
-> Incorporate starter, then incorporate salt?
-> 2% Salt? But higher salt content allows for more flexibility
-
 - 600g bread flour into bowl
 - 18g salt (3% of flour weight) into bowl
 - 227g (1 cup) sourdough starter into bowl
@@ -62,14 +58,21 @@ This playbook documents the process needed to create a sourdough from your start
 		- The oven I currently use runs a bit cooler, so I do 25 mins lid off.
 - Once bread is baked, leave on cooling tray to cool, for approximately 1 hour.
 
+## Other Helpful Notes
+
+- If the bottom of your bread is a bit dark, you can place a tray under your dutch oven when baking to help deflect some heat from the bottom.
+- To achieve a softer crust, place some water in the oven when you take the lid off. 
+	- The exact quantity was unknown, my sources say it was "a bit from the kettle".
+
 ---
 ## Metadata
 
 | Owner | Last Update | Version |
 | ----- | ----------- | ------- |
-| sean@ | 2024-12-30  | 1.2     |
+| sean@ | 2025-04-09  | 1.3     |
 ## Changelog
 
 - 2024-12-26: Initial Version
 - 2024-12-30: Separated bulk fermentation and cold fermentation. Also removed experiment to bring dough temp up after cold fermentation.
 - 2025-01-09: Updated instructions to recommend lid off when preheating the dutch oven.
+- 2025-04-09: Added a section for some more modifications.
