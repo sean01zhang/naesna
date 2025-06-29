@@ -1,6 +1,6 @@
 ## About Me
 
-I am a 4th year CS student at the [University of Waterloo](https://uwaterloo.ca).
+Graduated Computer Science at the [University of Waterloo](https://uwaterloo.ca) in June 2025.
 
 I use my website to document things I've been thinking about or have been doing.
 

@@ -14,9 +14,11 @@
         <b>{{ $page.Date | dateFormat "2006-01-02" }}</b> | {{ $page.WordCount }} words
       </span>
       <div class="tags">
-        {{ range $tag := $page.Params.tags }}
-        <span>#{{ $tag }}</span>
-        {{ end }}
+        {{- with $page.GetTerms "tags" }}
+          {{- range $tag := . }}
+          <span><a href="{{ $tag.RelPermalink}}">#{{ $tag.LinkTitle }}</a></span>
+          {{- end }}
+        {{- end }}
       </div>
     </div>
   </li>
