@@ -1,12 +1,24 @@
 {{ define "main" }}
-<h1 class="pageTitle">{{ .Title }}</h1>
+<h2 class="pageTitle">{{ .Title }}</h2>
 {{ .Content }}
 {{ range .Pages }}
 <div class="listItem">
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
   {{ if (ne .Summary "") }}
   <div class="listSummary">
     {{ .Summary }}
+  </div>
+  <div class="metadata">
+    <span>
+      <b>{{ .Date | dateFormat "2006-01-02" }}</b> | {{ .WordCount }} words
+    </span>
+    <div class="tags">
+      {{- with .GetTerms "tags" }}
+        {{- range $tag := . }}
+        <span><a href="{{ $tag.RelPermalink }}">#{{ $tag.LinkTitle }}</a></span>
+        {{- end }}
+      {{- end }}
+    </div>
   </div>
   {{ end }}
 </div>

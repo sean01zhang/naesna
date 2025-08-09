@@ -92,10 +92,15 @@ img {
 
 .listItem {
   margin: 1rem 0;
+  padding: 0.5rem 0;
 }
 
-.listItem>h2 {
+.listItem>h3 {
   margin: 0;
+}
+
+.listItem:not(:last-child) {
+  border-bottom: 1px solid lightgray;
 }
 
 .listSummary {
@@ -151,7 +156,8 @@ li>code {
   padding-left: 0;
 }
 
-#recentPosts {
+#recentPosts,
+.listItem {
   .post {
     padding: 0.5rem 0rem;
     display: flex;
