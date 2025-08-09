@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+
+<head>
+  {{ partial "head.html" . }}
+  {{ if .Param "math" }}
+  {{ partialCached "math.html" . }}
+  {{ end }}
+  {{- with resources.Get "css/post.css" }}
+  {{- if eq hugo.Environment "development" }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{- else }}
+  {{- with . | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+  {{- end }}
+  {{- end }}
+  {{- end }}
+</head>
+
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <div class="main-aside-container">
+    <div class="col">
+      <main>
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+    {{ if .IsPage }}
+    <aside>
+      <div class="sticky">
+        <div class="outline">
+        <span class="subtitle">On this page</span>
+        {{ .TableOfContents }}
+        </div>
+      </div>
+    </aside>
+    {{ end }}
+  </div>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  {{ if .IsPage }}
+  <style>
+    @media (min-width: 720px) {
+      body {
+        /* width: calc(480px + 200px + 2rem); */
+        width: 720px;
+      }
+      aside {
+        display: block;
+      }
+    }
+  </style>
+  {{ end }}
+</body>
+
+{{ if .Store.Get "hasMermaid" }}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({startOnLoad: true});
+</script>
+{{ end }}
+
+</html>
