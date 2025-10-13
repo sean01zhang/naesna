@@ -4,11 +4,10 @@ Graduated Computer Science at the [University of Waterloo](https://uwaterloo.ca)
 
 I use my website to document things I've been thinking about or have been doing.
 
-|              |                                                       |
-| ------------ | ----------------------------------------------------- |
-| **Email**    | `[firstName][at][this fqdn]`                          |
-| **GitHub**   | [sean01zhang](https://github.com/sean01zhang)         |
-| **LinkedIn** | [in/sean01zhang](https://linkedin.com/in/sean01zhang) |
+|            |                                                       |
+| ---------- | ----------------------------------------------------- |
+| **Email**  | `[firstName][at][this fqdn]`                          |
+| **GitHub** | [sean01zhang](https://github.com/sean01zhang)         |
 
 --- 
 
