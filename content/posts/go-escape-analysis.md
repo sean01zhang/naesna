@@ -1,7 +1,7 @@
 +++
 title = "Heap Escape Analysis in Go"
 date = 2024-12-08T22:49:43-05:00
-draft = false
+draft = true
 tags=["rough", "golang"]
 +++
 
